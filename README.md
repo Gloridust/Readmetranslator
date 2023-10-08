@@ -1,6 +1,6 @@
 # Readmetranslator
  一键将中文 Readme 文件转译为英文版。Translate Chinese Readme files to English easily.
-
+For English? [Please click here](README_en.md).
 ## 用途
 
 - 如果您有一个包含中文内容的 Markdown 文件，并希望将其翻译成英文，这个脚本可以自动完成这个任务。
@@ -20,17 +20,7 @@
 
 1. **准备 Markdown 文件**：将您希望翻译的 Markdown 文件准备好，并将其命名为 `README.md`（您也可以将文件命名为其他名称，但需要在后续步骤中相应地更改文件路径）。
 
-2. **编辑脚本**：如果您需要翻译的文件不叫**README.md**,你可以在脚本中修改文件名。您可以在脚本中找到以下部分：
-
-   ```python
-   if __name__ == '__main__':
-       input_file = 'README.md'  # 请替换为您的输入 Markdown 文件。
-       output_file = 'README_en.md'  # 请替换为您的输出 Markdown 文件。
-       translate_markdown(input_file, output_file)  # 调用 translate_markdown 函数执行翻译。
-   ```
-
-   - 将 `'README.md'` 替换为您的输入 Markdown 文件的路径。
-   - 将 `'README_en.md'` 替换为您想要保存翻译后内容的文件路径。
+2. **准备待翻译的文件**：如果您需要翻译的文件不叫**README.md**,您需要修改文件名为**README.md**。
 
 3. **运行脚本**：在终端或命令提示符中，导航到包含脚本的目录，并运行脚本：
 

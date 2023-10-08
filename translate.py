@@ -1,6 +1,6 @@
 from googletrans import Translator
 
-print("程序已开始运行，请您耐心等待；文件处理时长一般在 1～3 分钟，请保证您能连接到 GoogleTranslate 服务。")
+print("程序已开始运行，请您耐心等待；文件处理时长一般在 1～3 分钟，请确保您能连接到 GoogleTranslate 服务。")
 
 def translate_text(text):
     translator = Translator()
